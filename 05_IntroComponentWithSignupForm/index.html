@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta char="UTF-8" />
+    <link href="style.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Intro Component With Signup Form</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="letterBlock">
+        <h1 class="learnCodeText">Learn to code by watching others</h1>
+        <p class="learnCodeBlock">
+          See how experienced developers solve problems in real-time. Watching
+          scripted tutorials is great, but understanding how developers think is
+          invaluable.
+        </p>
+      </div>
+      <div class="formBlock">
+        <button>
+          <span><strong>Try it free 7 days </strong></span
+          ><light>then $20/mo. thereafter</light>
+        </button>
+        <form class="formMain" novalidate>
+          <input
+            id="firstName"
+            name="name"
+            type="text"
+            placeholder="First Name"
+            title="Input your First name"
+            required
+          />
+          <input
+            id="lastName"
+            name="lastName"
+            type="text"
+            placeholder="Last Name"
+            title="Input your Last name"
+            required
+          />
+
+          <input
+            id="emailId"
+            name="email"
+            type="email"
+            placeholder="Email Address"
+            title="Input your Email Address"
+            required
+          />
+          <input
+            id="password"
+            name="password"
+            type="text"
+            placeholder="Password"
+            title="Input your Password"
+            required
+          />
+          <input
+            id="submit"
+            class="submitButton"
+            name="submit"
+            type="submit"
+            value="Claim your free trial"
+            title="Click here to submit the form"
+            required
+          />
+          <p>
+            By clicking the button you are agreeing to our
+            <a href="#"><strong>Terms and Services</strong></a>
+          </p>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

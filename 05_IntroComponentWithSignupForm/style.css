@@ -1,0 +1,97 @@
+:root {
+  --Red: hsl(0, 100%, 74%);
+  --Green: hsl(154, 59%, 51%);
+  --Blue: hsl(248, 32%, 49%);
+  --DarkBlue: hsl(249, 10%, 26%);
+  --GrayishBlue: hsl(246, 25%, 77%);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: var(--Red);
+  background-image: url("images/bg-intro-desktop.png");
+}
+.wrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.letterBlock {
+  /* padding-left: 10px; */
+  padding-right: 50px;
+  padding-top: 150px;
+
+  height: 552px;
+  color: #fff;
+}
+
+.learnCodeText {
+  width: 500px;
+  font-size: 45px;
+}
+.learnCodeBlock {
+  margin-top: 10px;
+}
+.formBlock button {
+  width: 530px;
+  margin-bottom: 15px;
+  padding: 15px;
+  border-radius: 10px;
+  letter-spacing: 2px;
+  font-size: 16px;
+  color: #fff;
+  border: none;
+  background-color: var(--Blue);
+  box-shadow: 0px 5px 0px 0px rgb(199, 94, 94);
+}
+form {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 25px;
+}
+form input {
+  width: 450px;
+  font-weight: 500;
+  padding: 15px 20px;
+  margin: 15px;
+  font-size: 16px;
+
+  border: 1px solid var(--GrayishBlue);
+  border-radius: 5px;
+}
+.submitButton {
+  font-size: 14px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-weight: 500;
+  background: var(--Green);
+  border: none;
+  box-shadow: 0px 5px 0px 0px hsl(154, 58%, 45%);
+  color: white;
+  cursor: pointer;
+}
+input:hover {
+  border: 1px solid rgb(34, 33, 33);
+}
+.submitButton:hover {
+  border: none;
+}
+
+.formBlock p {
+  font-size: 11px;
+  color: var(--GrayishBlue);
+  margin: 10px;
+  padding-left: 30px;
+}
+.formBlock p a {
+  text-decoration: none;
+  color: var(--Red);
+}
